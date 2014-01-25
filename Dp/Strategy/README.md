@@ -19,4 +19,4 @@ Padrão de Projeto Strategy
 Objetivo
 --------
 
-Definir uma família de algoritmos, encapsular cada um, e os tornar intercambiáveis. O Strategy permite que algoritmos variem independentemente entre clientes que os utilizam.
+Definir uma família de algoritmos, encapsular cada um e os tornar intercambiáveis. O Strategy permite que algoritmos variem independentemente entre os clientes que os utilizam.
