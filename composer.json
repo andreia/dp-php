@@ -1,0 +1,8 @@
+{
+    "name": "andreia/dp",
+    "autoload": {
+        "psr-0": {
+            "Dp": ""
+        }
+    }
+}
