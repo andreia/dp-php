@@ -20,6 +20,7 @@ class SjfScheduling implements SchedulingInterface
 
         $serviceTime = 0;
         $s = 0;
+
         foreach($processes as $v){
             $waitTime = $serviceTime - $v['arrival-time'];
             $serviceTime += $v['execute-time'];

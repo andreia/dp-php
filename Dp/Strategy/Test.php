@@ -11,11 +11,24 @@ class Test
     public function test(){
         $processScheduling = new SjfScheduling();
 
-        $processes = array(); 
-        $processes[] = array('arrival-time' => 1, 'execute-time' => 3);
-        $processes[] = array('arrival-time' => 0, 'execute-time' => 4);
-        $processes[] = array('arrival-time' => 2, 'execute-time' => 8);
-        $processes[] = array('arrival-time' => 3, 'execute-time' => 6);
+        $processes = [
+            [
+                'arrival-time' => 1,
+                'execute-time' => 3,
+            ],
+            [
+                'arrival-time' => 0,
+                'execute-time' => 4,
+            ],
+            [
+                'arrival-time' => 2,
+                'execute-time' => 8,
+            ],
+            [
+                'arrival-time' => 3,
+                'execute-time' => 6,
+            ],
+        ];
 
         return $processScheduling->averageWaitTime($processes);
     }
